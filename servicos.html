@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="services.css">
+    <title>Freelancer Mario Brothers</title>
+
+</head>
+
+<header>
+    <figure>
+        <figcaption>
+            <img src="./img/logo-header.jpg" alt="logo-cabecalho" id="logo-header">
+        </figcaption>
+    </figure>
+
+    <div id="links">
+        <a href="index.html">Home</a>
+        <a href="#">Nossos Serviços</a>
+        <a href="javascript:clickButton()">Fale Conosco</a>
+
+    </div>
+</header>
+
+<body>
+    <div class="mascara"></div>
+
+    <main>
+
+        <div class="section">
+
+            <ul class="list-services">
+
+                <li class="card-list">
+                    <div class="image-side">
+                        <h1 class="title-card">
+                            Turma Kids
+                        </h1>
+                        <img src="./img/kids.jpg" class="img-list">
+                    </div>
+                    <div class="info-card">
+                        <p>Nas turmas de Jiu-Jitsu para crianças, as aulas são divertidas e educativas, começando com
+                            atividades de aquecimento e ensino de técnicas adaptadas à idade deles. Promovemos valores
+                            como respeito e disciplina e encerramos com jogos que reforçam o aprendizado, garantindo uma
+                            experiência enriquecedora e divertida para os pequenos.
+                        </p>
+                    </div>
+
+                    <div class="card-logo">
+                        <img src="./img/logo-header.jpg">
+                    </div>
+                </li>
+                <li class="card-list">
+                    <div class="image-side">
+                        <h1 class="title-card">
+                            Turma Jovens
+                        </h1>
+                        <img src="./img/young.png" class="img-list">
+                    </div>
+
+                    <div class="info-card">
+                        <p> Na turma jovem, as aulas são dinâmicas e interativas, com um aquecimento
+                            inicial seguido pela prática de técnicas, incluindo exercícios de solo e em dupla para
+                            promover o desenvolvimento das habilidades de defesa e ataque. Ao final, há uma revisão do
+                            conteúdo aprendido e espaço para tirar dúvidas, visando garantir que cada aluno se sinta
+                            desafiado e motivado a melhorar, enquanto se diverte e faz novos amigos.
+                        </p>
+                    </div>
+
+                    <div class="card-logo">
+                        <img src="./img/logo-header.jpg">
+                    </div>
+
+                </li>
+                <li class="card-list">
+                    <div class="image-side">
+                        <h1 class="title-card">
+                            Turma Adulta
+                        </h1>
+                        <img src="./img/adult.jpg" class="img-list">
+                    </div>
+                    <div class="info-card">
+                        <p>
+                            Para adultos, focamos no desenvolvimento técnico e físico dos alunos.
+                            Iniciamos com um aquecimento completo, seguido pela prática de técnicas e treinos
+                            específicos de resistência e condicionamento. Ao final, reservamos um tempo para revisão e
+                            esclarecimento de dúvidas. O objetivo é oferecer uma experiência de aprendizado gratificante
+                            e progressiva, promovendo o desenvolvimento consistente das habilidades no Jiu-Jitsu.
+                        </p>
+                    </div>
+
+                    <div class="card-logo">
+                        <img src="./img/logo-header.jpg">
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+        <form id="fale-conosco" action="https://formcarry.com/s/zPh191tebmn" method="POST"
+            enctype="multipart/form-data">
+            <input placeholder="Seu Nome" type="text" name="Nome">
+            <input placeholder="Seu Telefone" type="tel" name="Telefone">
+            <textarea placeholder="Dúvidas / Pedidos" name="Dúvida"></textarea>
+            <button id="btn" class="btn-orcamento" type="submit">Pedir Orçamento</button>
+        </form>
+        <div id="mascara-formulario" onclick="desligarMascara()"></div>
+
+
+
+    </main>
+    <div class="link-zap">
+        <a href="https://api.whatsapp.com/send?phone=5577988888888&text=Ol%C3%A1,%20quero%20ajuda%20dos%20irm%C3%A3os%20Mario!"
+            target="_blank" id="lin">
+            <img src="./img/whatsapp.png" alt="whatsapp-img" id="zap-img">
+        </a>
+    </div>
+
+
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>

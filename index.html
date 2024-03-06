@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Academia Brazilian Jiu-Jitsu</title>
+
+</head>
+
+<header>
+    <figure>
+        <figcaption>
+            <img src="./img/logo-header.jpg" alt="logo-cabecalho" id="logo-header">
+        </figcaption>
+    </figure>
+
+    <div id="links">
+        <a href="index.html">Home</a>
+        <a href="servicos.html">Nossos Serviços</a>
+        <a href="javascript:clickButton()">Fale Conosco</a>
+    </div>
+</header>
+
+<body>
+
+
+    <main>
+        <section id="descricao">
+            <figure id="caixa-imagem">
+                <figcaption>
+                    <img src="./img/logo.jpg" alt="logo" id="logo-img">
+                </figcaption>
+            </figure>
+            <p id="p1">Descubra o fascinante mundo do Jiu-Jitsu com a <span>Brazilian Jiu-Jitsu.</span></p>
+            <p id="p2">Nossa escola oferece uma experiência única,
+                onde você aprenderá técnicas de defesa pessoal,
+                fortalecerá seu corpo e mente, e se tornará parte de uma
+                comunidade apaixonada por essa arte marcial milenar.
+                Venha se juntar a nós e
+                embarque nessa jornada de autodesenvolvimento e superação!
+            </p>
+            <button id="btn" onclick="clickButton()">Entre em Contato</button>
+        </section>
+
+
+        <div class="mascara"></div>
+
+        <section id="lado-treino-banner">
+            <figure id="caixa-treino">
+                <figcaption>
+                    <img src="img/treino.jpg" alt="mario" id="treino-img">
+                </figcaption>
+            </figure>
+        </section>
+
+
+
+        <form id="fale-conosco" action="https://formcarry.com/s/zPh191tebmn" method="POST"
+            enctype="multipart/form-data">
+            <input placeholder="Seu Nome" type="text" name="Nome">
+            <input placeholder="Seu Telefone" type="tel" name="Telefone">
+            <textarea placeholder="Dúvidas / Pedidos" name="Dúvida"></textarea>
+            <button id="btn" class="btn-orcamento" type="submit">Pedir Orçamento</button>
+        </form>
+        <div id="mascara-formulario" onclick="desligarMascara()"></div>
+
+
+
+    </main>
+    <div class="link-zap">
+        <a href= "https://api.whatsapp.com/send?phone=5577999999999"
+            target="_blank" id="lin">
+            <img src="./img/whatsapp.png" alt="whatsapp-img" id="zap-img">
+        </a>
+    </div>
+
+
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
